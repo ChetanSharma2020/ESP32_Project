@@ -9,11 +9,6 @@ Note: This requires ESP32 support package:
                 OR you can add manually 
 Tool-->Board-->Board Manager-- > search (esp32 espressif) and install the Board
 
-Install Blynk Library :- 
-
-How to install Blynk library  :- https://docs.blynk.io/en/blynk.edgent-firmware-api/installation/what-do-i-need-to-blynk 
-                               OR you can add manually 
-Sketch-->Include Library-->Manage library-- > Search for Blynk library
 
 
 ************************************************************/
@@ -27,8 +22,8 @@ WiFiClient client;
 WiFiServer server(80);
 
 /* WIFI settings */
-const char* ssid = "simalesh Sharma 1";   //WIFI SSID
-const char* password = "che@1234";    //WIFI PASSWORD
+const char* ssid = "WIFI SSID";   //WIFI SSID
+const char* password = "WIFI PASSWORD";    //WIFI PASSWORD
 
 void connectWiFi()
 {
